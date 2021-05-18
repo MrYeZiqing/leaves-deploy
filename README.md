@@ -7,7 +7,7 @@
 ```
 
 ### 配置
-```
+```js
     const config = {
         host:'', // 开发服务器地址 必填
         port:'22', // 端口 默认 22
@@ -27,7 +27,7 @@
 ```
     "scripts": {
         "deploy":"deploy --config ./config/deploy.js"
-    },
+    }
 ```
 也可以直接在终端中使用
 ```
